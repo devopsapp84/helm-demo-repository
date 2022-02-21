@@ -25,6 +25,6 @@ jobs:
           version: v3.4.0
 
       - name: Run chart-releaser
-        uses: devopsapp84/chart-releaser@v0.0.1
+        uses: devopsapp84/chart-releaser@v0.0.2
         env:
           YACR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
