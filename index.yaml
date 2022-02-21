@@ -3,6 +3,20 @@ entries:
   app01:
   - apiVersion: v2
     appVersion: 0.0.1
+    created: "2022-02-21T15:43:11.433915178Z"
+    description: A private Helm chart for Kubernetes test application flask APP01
+    digest: b263a5e0d58c85c052e45bed9fbff4471bdeb943e023961390bb1efdb64a151d
+    keywords:
+    - sample flask application
+    maintainers:
+    - email: janusz.kujawa@gmail.com
+      name: Janusz Kujawa
+    name: app01
+    urls:
+    - https://github.com/devopsapp84/helm-demo-repository/releases/download/app01-0.0.4/app01-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v2
+    appVersion: 0.0.1
     created: "2022-02-21T14:07:29.544378153Z"
     description: A private Helm chart for Kubernetes test application flask APP01
     digest: fcc1f5e27ede5d0791d002331462164ddd7060ef3a4ee49ee3f65df5ee15f6cf
@@ -44,6 +58,21 @@ entries:
     - https://github.com/devopsapp84/helm-demo-repository/releases/download/app01-0.0.1/app01-0.0.1.tgz
     version: 0.0.1
   app02:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2022-02-21T15:43:11.593834326Z"
+    description: A private Helm chart for Kubernetes test application flask APP02
+    digest: 1ad219ca0fb105363267b2cce9d6ac09b1c5d76f70f9e980cff5692a271d5386
+    keywords:
+    - sample flask application
+    - testing
+    maintainers:
+    - email: janusz.kujawa@gmail.com
+      name: Janusz Kujawa
+    name: app02
+    urls:
+    - https://github.com/devopsapp84/helm-demo-repository/releases/download/app02-0.0.4/app02-0.0.4.tgz
+    version: 0.0.4
   - apiVersion: v2
     appVersion: 0.0.1
     created: "2022-02-21T14:07:29.726914461Z"
@@ -89,4 +118,4 @@ entries:
     urls:
     - https://github.com/devopsapp84/helm-demo-repository/releases/download/app02-0.0.1/app02-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-21T14:07:29.726930261Z"
+generated: "2022-02-21T15:43:11.593861317Z"
