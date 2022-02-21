@@ -1,7 +1,7 @@
 apiVersion: v2
 description: A private Helm chart for Kubernetes test application flask APP02
 name: app02
-version: 0.0.1
+version: 0.0.2
 appVersion: 0.0.1
 maintainers:
   - name: Janusz Kujawa
